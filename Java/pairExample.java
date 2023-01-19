@@ -1,8 +1,8 @@
-class Pair(T, U){
+class Pair<T, U>{
     private final T first;
     private final U second;
 
-    public Pair(T firstm U second){
+    public Pair(T first, U second){
         this.first = first;
         this.second = second;
     }
@@ -11,7 +11,7 @@ class Pair(T, U){
     public U getSecond(){ return second; }
 }
 
-public class PairExample
+public class pairExample{
     public static void main(String[] args){
         
         Pair <String, Integer> pair = new Pair <String, Integer> ("one",2);
@@ -21,6 +21,7 @@ public class PairExample
         // siguiente linea generarı́a un warning de seguridad de tipos
         //Pair<String, Integer> pair3 = new Pair("one",2);
 
-        System.out.println("Obtén primer elemento: " + pair.get.getFirst());
+        System.out.println("Obtén primer elemento: " + pair.getFirst());
         System.out.println("Obtén segundo elemento: " + pair.getSecond());
     }
+}    
