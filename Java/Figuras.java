@@ -53,6 +53,11 @@ public class Figuras{
 			if(figura instanceof Figura2D){
 				System.out.println("area: " + ((Figura2D)figura).area());
 			}
+            if(figura instanceof Figura3D){
+				System.out.println("area: " + ((Figura3D)figura).area());if(figura instanceof Figura2D){
+				System.out.println("volumen: " + ((Figura3D)figura).volumen());
+			}
+			}
 		}
 
 
